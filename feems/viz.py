@@ -218,7 +218,7 @@ class Viz(object):
                 ax=self.ax,
                 node_size=0.0,
                 edge_cmap=self.edge_cmap,
-                edge_norm=self.edge_norm,
+                #edge_norm=self.edge_norm,
                 alpha=self.edge_alpha,
                 pos=self.grid,
                 width=self.edge_width,
