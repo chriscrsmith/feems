@@ -221,7 +221,7 @@ class Viz(object):
                 #edge_norm=self.edge_norm,
                 alpha=self.edge_alpha,
                 pos=self.grid,
-                width=self.edge_width,
+                width=10,
                 edgelist=list(np.column_stack(self.idx)),
                 edge_color=self.norm_log_weights,
                 edge_vmin=-self.abs_max,
